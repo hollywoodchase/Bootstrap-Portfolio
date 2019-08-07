@@ -1,0 +1,110 @@
+body {
+    background: lightsteelblue;
+}
+.container-fluid {
+    margin-top: 0;
+    float: left;
+    color: white;
+    border-bottom: 2px solid black;
+    width: 100%;
+    background: lightyellow;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    /* align-items: flex-end; */
+    justify-content: center;
+}
+div > a, li > a {
+    background-color: lightsalmon;
+    margin: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 2.5px 2.5px;
+}
+div > a {
+    color: black;
+    margin: 2em 6em;
+}
+li > a {
+    color: white;
+    margin-top: 2.5em;
+}
+.nav {
+    float: right;
+    margin-left: 15em;
+}
+.social {
+    float: right;
+    margin-left: 7em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 15px;
+    border-radius: 50%
+  
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+    }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  .fa-linkedin:before {
+    content: "\f0e1";
+}
+.row {
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid silver;
+}
+
+/* Below the header */
+.main-header {
+    padding: 25px;
+    font-size: 36px;
+    /* padding-left: 15px; */
+}
+.main-header > h3 {
+    font-size: 36px;
+}
+.teacher > img {
+    max-width: 20em;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    
+}

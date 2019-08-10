@@ -1,18 +1,22 @@
 body {
-    background: lightsteelblue;
+    background: lightyellow;
+    background: url('../../assets/Images/caliseBackground.jpg');
+    background-position: top;
+    min-height: 100%;
+    position: relative;
 }
+
 .container-fluid {
     margin-top: 0;
     float: left;
     color: white;
     border-bottom: 2px solid black;
     width: 100%;
-    background: lightyellow;
+    background:	#A89378;
     border-radius: 5px;
     display: flex;
     flex-direction: row;
-    /* align-items: flex-end; */
-    justify-content: center;
+    justify-content: center; 
 }
 div > a, li > a {
     background-color: lightsalmon;
@@ -24,22 +28,31 @@ div > a, li > a {
 div > a {
     color: black;
     margin: 2em 6em;
+    padding: 7px;
 }
 li > a {
     color: white;
     margin-top: 2.5em;
 }
-.nav {
+.top-nav {
     float: right;
-    margin-left: 15em;
+    margin-left: 5em;
+}
+.navbar-brand {
+    padding: 1em;
+    padding-bottom: 3em;
+    margin-left: 5em;
+    margin-top: 1.5em;
 }
 .social {
     float: right;
-    margin-left: 7em;
+    margin-left: 15em;
     margin-top: 1em;
     margin-bottom: 1em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
   }
-  
   .fa {
     padding: 20px;
     font-size: 30px;
@@ -48,7 +61,6 @@ li > a {
     text-decoration: none;
     margin: 15px;
     border-radius: 50%
-  
   }
   
   /* Add a hover effect if you want */
@@ -95,16 +107,76 @@ li > a {
 
 /* Below the header */
 .main-header {
-    padding: 25px;
     font-size: 36px;
-    /* padding-left: 15px; */
+    text-align: center;
 }
-.main-header > h3 {
-    font-size: 36px;
+.buttons {
+    display: flex;
+    text-align: center;
+    justify-content: center;
 }
-.teacher > img {
+.inside > h5 {
+    text-align: center;
+}
+.stuff > p {
+    font-size: 20px;
+    background: lightseagreen;
+    color: white;
+    font-family: 'Dosis';
+    border-radius: 15px;
+    border: 2px solid black;
+}
+.stuff > img {
     max-width: 20em;
-    margin-left: 10px;
+    margin-left: 30px;
     margin-bottom: 15px;
-    
+    border: 2px solid black;
+    border-radius: 30px;
+    text-align: center;
 }
+.facet > h2 {
+    background: #7A7A78;
+    border-radius: 30px;
+    text-align: center;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+.facet > h2:hover {
+    background: white;
+    color: gray;
+    cursor: pointer;
+}
+.coder-image {
+    max-width: 23em;
+}
+
+.stuff {
+    display: none;
+}
+.open {
+    display: inline-block;
+}
+/* Footer */
+footer {
+    color: black;
+    position: relative;
+    /* height: 2.5rem;  */
+    top: 20em;
+    border-top: 2px solid black;
+    margin-top: 15px;
+    padding-top: 0;
+}
+.bottom-nav {
+    background: #A89378;
+    /* border-top: 2px solid black; */
+}
+.bottom-nav > li {
+    color: black;
+    padding-bottom: 1em;
+}
+#travel > a, 
+#homepage > a, 
+#originals > a {
+    color: black;
+}
+

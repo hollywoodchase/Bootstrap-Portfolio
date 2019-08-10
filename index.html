@@ -7,50 +7,76 @@
     <title>Document</title>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="./assets/styles/style.css">
+<link href="https://fonts.googleapis.com/css?family=Dosis|Lacquer&display=swap" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <header></header>
-        <nav class="nav nav-default"></nav>
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="http://dannycalise.com">Danny Calise</a>
-                </div>
-                <div class="social">
-                    <a href="http://facebook.com/danny.calise.39" class="fa fa-facebook"></a>
-                    <a href="http://instagram.com/golden_caulfield" class="fa fa-instagram"></a>
-                    <a href="http://twitter.com/dannycalise" class="fa fa-twitter"></a>
-                    <a href="https://www.youtube.com/channel/UCxe-DZuz-WwKl8NK5a2_9iw" class="fa fa-youtube"></a>
-                    <a href="https://www.linkedin.com/in/danny-calise-0590a556/" class="fa fa-linkedin"></a>
-                </div>
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="./index.html">Home</a></li>
-                    <li><a href="./portfolio.html">Portfolio</a></li>
-                    <li><a href="./contact.html">Contact</a></li>
-                </ul>
+    <header>
+        <div class="container-fluid">
+            <div class="navbar-header col-md-2">
+                <a class="navbar-brand" href="http://dannycalise.com">Danny Calise</a>
             </div>
+            <div class="social col-md-6">
+                <a href="http://facebook.com/danny.calise.39" class="fa fa-facebook"></a>
+                <a href="http://instagram.com/golden_caulfield" class="fa fa-instagram"></a>
+                <a href="http://twitter.com/dannycalise" class="fa fa-twitter"></a>
+                <a href="https://www.youtube.com/channel/UCxe-DZuz-WwKl8NK5a2_9iw" class="fa fa-youtube"></a>
+                <a href="https://www.linkedin.com/in/danny-calise-0590a556/" class="fa fa-linkedin"></a>
+            </div>
+            <ul class="nav navbar-nav top-nav col-md-4">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./portfolio.html">Portfolio</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </div>
             <div class="container">
                 <div class="row">
                   <div class="col-lg-12 main-header">
-                      <h3>About Me</h3>
-                  </div>
-                  
-                </div>
-                <div class="row">
-                  <div class="col-md-4 teacher">
+                      <marquee behavior="slide" direction="left">
+                          <h2>About Me</h2>
+                        </marquee>
+                </div> 
+            </div>
+    </header>
+                
+                <div class="row inside">
+                    <h5>Click one of the buttons below for more information</h5>
+                  <div class="buttons">  
+                    <div class="col-md-3 teacher facet">
                       <h2>A professional teacher</h2>
-                      <img src="./calise pic.JPG">
-                  </div>
-                  <div class="col-md-4">
+                      <div class="teacher-stuff stuff">
+                        <img class="teacher-image img-responsive" src="./assets/Images/calise pic.JPG">
+                        <p class="teacher-para">I've worked as a public school teacher in Philadelphia, Los Angeles and Austin. In addition, I taught abroad in China for two years. Currently, I am a high school English teacher at Edison High School in Philadelphia.</p>
+                      </div>
+                    </div>
+                    <div class="col-md-3 musician facet">
                       <h2>An amatuer musician</h2>
-                  </div>
-                  <div class="col-md-4">
+                      <div class="musician-stuff stuff">
+                        <img class="musician-image img-responsive" src="./assets/Images/dannyMusic.png">
+                        <p class="musician-para">I've been writing and covering songs for 16 years:
+                        Including 11 original full-length albums, 2 EP's, a two-act musical and 
+                        over 500,000 views on Youtube.</p>
+                      </div>
+                    </div>
+                    <div class="col-md-3 coder facet">
                       <h2>An aspiring coder</h2>
+                      <div class="coder-stuff stuff">
+                        <img class="coder-image img-responsive" src="./assets/Images/Calise teacher pic (1).jpg">
+                        <p class="coder-para">Studying independently for 3 years, I have learned the basics of HTML, CSS and Javascript. As a student currently enrolled in UPenn’s coding bootcamp, I am learning more that I could have ever known. Following the bootcamp, I hope to be hired for my first professional coding job.</p>
+                      </div> 
+                    </div>
                   </div>
                 </div>
               </div>
-    <footer></footer>
+        <footer class="footer container-fluid text-center">
+            <ul class="nav navbar-nav bottom-nav">
+                <li id="homepage"><a href="http://dannycalise.com">Homepage</a></li>
+                <li id="originals"><a href="http://dannycalise.bandcamp.com">Original Songs</a></li>
+                <li id="travel"><a href="http://dannycalise.com/travel.html">Travel Pics</a></li>
+            </ul>   
+        </footer>
 </body>
 </html>
